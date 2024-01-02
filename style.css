@@ -1,0 +1,43 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+    background: url(img/traderhowell-bg.webp) 0 0/cover #000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card {
+    padding: 3rem;
+    margin: 1rem;
+    border-radius: 15px;
+    background-color: #ffffff1a;
+    backdrop-filter: blur(10px);
+}
+
+.social-icon {
+    display: inline-block;
+    color: #fff;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.social-icon svg {
+    transition: transform 0.1s;
+    width: 1.5rem;
+}
+
+.social-icon:hover svg{
+    transform: scale(1.2);
+}
